@@ -1,0 +1,86 @@
+dt:
+  algorithm: dt
+  model_name: decision_tree.pkl
+  adv_model_name: decision_tree_adversarial.pkl
+knn:
+  algorithm: knn
+  model_name: k_nearest_neighbors.pkl
+  adv_model_name: k_nearest_neighbors_adversarial.pkl
+lr:
+  algorithm: lr
+  model_name: logistic_regression.pkl
+  adv_model_name: logistic_regression_adversarial.pkl
+nb:
+  algorithm: nb
+  model_name: naive_bayes.pkl
+  adv_model_name: naive_bayes_adversarial.pkl
+rf:
+  algorithm: rf
+  model_name: random_forest.pkl
+  adv_model_name: random_forest_adversarial.pkl
+deepforest:
+  algorithm: deepforest
+  model_name: deep_forest.pkl
+  adv_model_name: deep_forest_adversarial.pkl
+hmm:
+  algorithm: hmm
+  model_name: hidden_markov_model.pkl
+  adv_model_name: hidden_markov_model_adversarial.pkl
+svm:
+  algorithm: svm
+  model_name: support_vector_machine.pkl
+  adv_model_name: support_vector_machine_adversarial.pkl
+xgboost:
+  algorithm: xgboost
+  model_name: xgboost.dat
+  adv_model_name: xgboost_adversarial.dat
+lightgbm:
+  algorithm: lightgbm
+  model_name: lightgbm.dat
+  adv_model_name: lightgbm_adversarial.dat
+catboost:
+  algorithm: catboost
+  model_name: catboost.dat
+  adv_model_name: catboost_adversarial.dat
+mlp_torch:
+  algorithm: mlp_torch
+  model_name: multi_layer_perceptron_torch.pt
+  adv_model_name: multi_layer_perceptron_torch_adversarial.pt
+lr_torch:
+  algorithm: lr_torch
+  model_name: logistic_regression_torch.pt
+  adv_model_name: logistic_regression_torch_adversarial.pt
+mlp_keras:
+  algorithm: mlp_keras
+  model_name: multi_layer_perceptron_keras.h5
+  adv_model_name: multi_layer_perceptron_keras_adversarial.h5
+cnn_torch:
+  algorithm: cnn_torch
+  model_name: cnn_torch.pt
+  adv_model_name: cnn_torch_adversarial.pt
+cnn2_torch:
+  algorithm: cnn2_torch
+  model_name: cnn2_torch.pt
+  adv_model_name: cnn2_torch_adversarial.pt
+soft_ensemble:
+  algorithm: soft_ensemble
+  model_name: soft_ensemble.pt
+  adv_model_name: soft_ensemble_adversarial.pt
+origin_ensemble:
+  algorithm: origin_ensemble
+  model_name: origin_ensemble.pt
+  adv_model_name: origin_ensemble_adversarial.pt
+kitnet:
+  algorithm: kitnet
+  model_name: kitnet.pt
+  adv_model_name: kitnet_adversarial.pt
+if:
+  algorithm: if
+  model_name: if.pt
+  adv_model_name: if_adversarial.pt
+diff-rf:
+  algorithm: diff-rf
+  model_name: diff-rf.pt
+  adv_model_name: diff-rf_adversarial.pt
+
+
